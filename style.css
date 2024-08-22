@@ -1,0 +1,15 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: red;
+}
+
+a:visited{
+    color: palevioletred;
+}
+
+a:hover, a:active{
+    color: blueviolet;
+}
