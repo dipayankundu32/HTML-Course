@@ -1,15 +1,26 @@
-html{
+html {
     font-family: 'Times New Roman', Times, serif;
 }
 
-a{
+a {
     color: red;
 }
 
-a:visited{
+a:visited {
     color: palevioletred;
 }
 
-a:hover, a:active{
+a:hover,
+a:active {
     color: blueviolet;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .5rem;
 }
